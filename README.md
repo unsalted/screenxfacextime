@@ -9,7 +9,7 @@ License - MIT
 
 A javascript/jquery run site that organizes 7000 screenshots over 5 days.
 
-I used exiftool to create a json directory of images, find the shell script in: `genjson.sh`\
+I used exiftool to create a json directory of images, find the shell script in: `genjson.sh`
 
 The apple script and shell script that collected images can be found in: `/capture-scripts/`
 
