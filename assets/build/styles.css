@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'source-code-pro';
 }
 p {
   font-weight: normal;
@@ -9,24 +10,35 @@ p {
   padding: 0 3px 0 4px;
   background-color: red;
   color: #fff;
-  font-family: 'source-code-pro';
   z-index: 100;
   font-weight: 400;
   position: absolute;
 }
-h1 {
+header {
   position: absolute;
   width: 100%;
   height: 100px;
-  padding: 70px 0 30px 0;
+  padding: 50px 0 50px 0;
   margin: 0;
   text-align: center;
+  background-color: #fff;
+  z-index: 200;
+}
+header p {
+  width: 500px;
+  margin-left: -250px;
+  left: 50%;
+  text-align: center;
+  background-color: transparent;
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+}
+h1 {
   color: blue;
   font-size: 40px;
   font-weight: 300;
-  font-family: 'source-code-pro';
-  background-color: #fff;
-  z-index: 200;
+  margin: 0;
 }
 h1 span {
   color: red;
